@@ -124,7 +124,7 @@ def plot_bertrand(method_number):
     prob = np.sum(success)/nchords
     print('Bertrand, method {} probability: {}'.format(method_number, prob))
     plt.savefig('bertrand{}.png'.format(method_number))
-   
+   plt.show()
 
 # Ask the user which sample they want to access
 sample_number = int(input("Enter the sample number (1, 2, or 3): "))
